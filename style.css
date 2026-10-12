@@ -89,7 +89,14 @@ a {
   font-size: 14px;
   letter-spacing: 0.05em;
   color: #fff;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.1s;
 }
+
+.header-nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
 
 .section-1-bottom {
   width: 582px;
@@ -529,13 +536,22 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-a a {
+  display: inline-block;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.05em;
   color: #fff;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.1s;
+}
+
+.footer-a a:hover {
+
+  border-bottom: 1px solid #fff;
 }
 
 .footer-inf {
