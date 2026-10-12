@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+  font-family: 'Post No Bills Jaffna';
+  src: url('Fonts/PostNoBillsJaffna-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-
+@font-face {
+  font-family: 'Post No Bills Jaffna';
+  src: url('Fonts/PostNoBillsJaffna-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 .section-1 {
   width: 100%;
@@ -34,6 +50,7 @@ a {
   justify-content: space-between;
 }
 .header-logo {
+  font-family: "Post No Bills Jaffna", sans-serif;
   height: 66px;
   display: flex;
   flex-direction: column;
@@ -42,6 +59,7 @@ a {
 }
 
 .header-logo a {
+  font-family: "Post No Bills Jaffna", sans-serif;
   font-weight: 600;
   font-size: 36px;
   color: #fff;
@@ -90,6 +108,7 @@ a {
 }
 
 .section-1-bottom-top h1 {
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 48px;
   text-align: center;
@@ -179,6 +198,7 @@ a {
 }
 
 .section-3-container p {
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 36px;
   color:#D4C17F;
@@ -251,6 +271,7 @@ a {
 }
 
 .section-4-left h2 {
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 36px;
   color: #D4C17F;
@@ -366,6 +387,7 @@ input::placeholder {
 }
 
 .section-6-container p {
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 36px;
   color: #D4C17F;
@@ -392,6 +414,7 @@ input::placeholder {
 }
 
 .section-7-container h3 {
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 36px;
   color: #D4C17F;
@@ -446,7 +469,6 @@ input::placeholder {
 
 .section-7-container-bottom input:focus::placeholder {
   text-align: left;
-  
 }
 
 .section-7-container-bottom input:focus {
@@ -483,6 +505,7 @@ input::placeholder {
 }
 
 .footer-logo {
+  font-family: "Post No Bills Jaffna", sans-serif;
   height: 66px;
   font-weight: 600;
   font-size: 36px;
@@ -494,6 +517,7 @@ input::placeholder {
 }
 
 .footer-logo span {
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.12em;
