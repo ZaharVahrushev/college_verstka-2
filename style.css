@@ -8,6 +8,16 @@
   font-style: normal;
 }
 
+@keyframes animBg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +26,10 @@
 
 a {
   text-decoration: none;
+}
+
+body {
+  background-color: #242B33;
 }
 
 @font-face {
@@ -34,7 +48,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  animation: animBg 5s ease 0.1s forwards;
 }
 .section-1-container {
   width: 80%;
